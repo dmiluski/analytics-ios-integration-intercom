@@ -12,8 +12,8 @@
 		F4418FAE24D2720F002FC779 /* SEGIntercomIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = F4418FA424D2720F002FC779 /* SEGIntercomIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4418FAF24D2720F002FC779 /* SEGIntercomIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = F4418FA524D2720F002FC779 /* SEGIntercomIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4418FB024D2720F002FC779 /* Segment_Intercom.h in Headers */ = {isa = PBXBuildFile; fileRef = F4418FA724D2720F002FC779 /* Segment_Intercom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4418FB624D2729B002FC779 /* Intercom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4418FB424D2729B002FC779 /* Intercom.framework */; };
-		F4418FB724D2729B002FC779 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4418FB524D2729B002FC779 /* Analytics.framework */; };
+		F45B01BD2550BB1400A5C858 /* Intercom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45B01BB2550BB1400A5C858 /* Intercom.framework */; };
+		F45B01BE2550BB1400A5C858 /* Segment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45B01BC2550BB1400A5C858 /* Segment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +25,8 @@
 		F4418FA524D2720F002FC779 /* SEGIntercomIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGIntercomIntegrationFactory.h; sourceTree = "<group>"; };
 		F4418FA724D2720F002FC779 /* Segment_Intercom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segment_Intercom.h; sourceTree = "<group>"; };
 		F4418FA824D2720F002FC779 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4418FB424D2729B002FC779 /* Intercom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intercom.framework; path = Carthage/Build/iOS/Intercom.framework; sourceTree = SOURCE_ROOT; };
-		F4418FB524D2729B002FC779 /* Analytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Analytics.framework; path = Carthage/Build/iOS/Analytics.framework; sourceTree = SOURCE_ROOT; };
+		F45B01BB2550BB1400A5C858 /* Intercom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intercom.framework; path = Carthage/Build/iOS/Intercom.framework; sourceTree = "<group>"; };
+		F45B01BC2550BB1400A5C858 /* Segment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Segment.framework; path = Carthage/Build/iOS/Segment.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,8 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4418FB624D2729B002FC779 /* Intercom.framework in Frameworks */,
-				F4418FB724D2729B002FC779 /* Analytics.framework in Frameworks */,
+				F45B01BE2550BB1400A5C858 /* Segment.framework in Frameworks */,
+				F45B01BD2550BB1400A5C858 /* Intercom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +45,7 @@
 		F4418F8A24D271B6002FC779 = {
 			isa = PBXGroup;
 			children = (
-				F4418FB324D27289002FC779 /* Frameworks */,
+				F45B01BA2550BAF300A5C858 /* Frameworks */,
 				F4418F9F24D2720F002FC779 /* Segment-Intercom */,
 				F4418F9524D271B6002FC779 /* Products */,
 			);
@@ -89,13 +89,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		F4418FB324D27289002FC779 /* Frameworks */ = {
+		F45B01BA2550BAF300A5C858 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F4418FB524D2729B002FC779 /* Analytics.framework */,
-				F4418FB424D2729B002FC779 /* Intercom.framework */,
+				F45B01BB2550BB1400A5C858 /* Intercom.framework */,
+				F45B01BC2550BB1400A5C858 /* Segment.framework */,
 			);
-			path = Frameworks;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
